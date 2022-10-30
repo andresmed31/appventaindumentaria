@@ -12,6 +12,7 @@ function show_error(){
 	$error->index();
 }
 
+
 if(isset($_GET['controller'])){
 	$nombre_controlador = $_GET['controller'].'Controller';
 
@@ -22,6 +23,7 @@ if(isset($_GET['controller'])){
 	show_error();
 	exit();
 }
+
 
 if(class_exists($nombre_controlador)){	
 	$controlador = new $nombre_controlador();

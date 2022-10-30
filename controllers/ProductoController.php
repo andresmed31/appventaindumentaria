@@ -11,7 +11,8 @@ class productoController{
 		require_once 'views/producto/destacados.php';
 	}
 	
-	public function ver(){
+	public function ver(){ //------------> esta funcion nos mostrara unicamente el producto seleccionado
+		
 		if(isset($_GET['id'])){
 			$id = $_GET['id'];
 		

@@ -1,0 +1,9 @@
+introduction
+
+you are working on a multi-player board game called "race".
+players are able to move on the board (strategy pattern),
+some cards from the board are used for extra moves (chain 
+of responsibility pattern), all players moves are logged 
+and actual results are presented on a score board (observer pattern), 
+of course, the game has an internal state like "waiting for players", 
+"playing", "completed" (state pattern), to avoid unexpected actions.

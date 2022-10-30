@@ -1,10 +1,15 @@
 <IfModule mod_rewrite.c>
+
 # Activar rewrite
+
 RewriteEngine on
-ErrorDocument 404 http://localhost/tienda-master/error/index
+
+ErrorDocument 404 http://localhost/store/error/index
 
 RewriteCond %{SCRIPT_FILENAME} !-d
+
 RewriteCond %{SCRIPT_FILENAME} !-f
 
 RewriteRule ^(.*)/(.*) index.php?controller=$1&action=$2
+
 </IfModule>

@@ -1,5 +1,4 @@
 <?php
-
 class Utils{
 	
 	public static function deleteSession($name){

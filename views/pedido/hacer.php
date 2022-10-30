@@ -20,8 +20,10 @@
 	</form>
 		
 <?php else: ?>
+
 	<h1>Necesitas estar identificado</h1>
 	<p>Necesitas estar logueado en la web para poder realizar tu pedido.</p>
+	
 <?php endif; ?>
 
 

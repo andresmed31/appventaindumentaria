@@ -55,3 +55,9 @@
 <?php else: ?>
 	<p>El carrito está vacio, añade algun producto</p>
 <?php endif; ?>
+
+
+
+<?php var_dump($_SESSION['carrito']); ?>
+
+

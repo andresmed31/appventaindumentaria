@@ -66,12 +66,3 @@ INSERT INTO categorias VALUES(null, 'Camisetas');
 INSERT INTO categorias VALUES(null, 'Lisas');
 INSERT INTO categorias VALUES(null, 'Musculosa');
 
-<?php
-
-class Database{
-	public static function connect(){
-		$db = new mysqli('fdb32.awardspace.net', '4018872_general', 'Nk!g7LduXW7tDJH', '4018872_general');
-		$db->query("SET NAMES 'utf8'");
-		return $db;
-	}
-}
